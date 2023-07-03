@@ -1,11 +1,11 @@
 import 'package:mysql1/mysql1.dart';
 
 class DatabaseConn {
-  static String host = 'localhost',
-      user = 'ryu',
-      password = '1q2w3e',
-      db = 'test';
-  static int port = 3306;
+  static String host = 'host',
+      user = 'dbuser',
+      password = 'dbpassword',
+      db = 'dbname';
+  static int port = yourportgoeshere;
 
   DatabaseConn();
 
